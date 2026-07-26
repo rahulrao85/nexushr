@@ -1,0 +1,47 @@
+.avatar {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.avatar-sm { width: 32px; height: 32px; font-size: 0.75rem; }
+.avatar-md { width: 40px; height: 40px; font-size: 0.875rem; }
+.avatar-lg { width: 56px; height: 56px; font-size: 1.125rem; }
+.avatar-xl { width: 80px; height: 80px; font-size: 1.5rem; }
+.avatar-2xl { width: 120px; height: 120px; font-size: 2rem; }
+
+.avatar-color-0 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.avatar-color-1 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+.avatar-color-2 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+.avatar-color-3 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+.avatar-color-4 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-initials {
+  color: white;
+  font-weight: 600;
+}
+
+.avatar-status {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-secondary);
+}
+
+.avatar-status-active { background: var(--success); }
+.avatar-status-leave { background: var(--warning); }
+.avatar-status-terminated { background: var(--danger); }
+.avatar-status-probation { background: var(--info); }
