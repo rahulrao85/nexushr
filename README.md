@@ -35,10 +35,6 @@ npm run build
 npm run preview
 ```
 
-## Live Demo
-
-https://nexus-hrms.rahulrao85.workers.dev/
-
 ---
 
 *Built for the Productivity & Enterprise Solutions track of Orion Global Hackathon 2026.*
